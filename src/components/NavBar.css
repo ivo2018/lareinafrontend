@@ -1,0 +1,73 @@
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: -50px;
+  right: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(252, 182, 32, 0.397)
+  );
+  border-radius: 4px;
+}
+.NavContainer span {
+  width: 5em;
+}
+
+.NavContainer a {
+  color: rgb(0, 0, 0);
+  border-bottom: 2px outset rgb(185, 79, 8);
+  padding: 0px 4px 2px 0px;
+  text-underline-offset: 2px;
+}
+.NavContainer a:hover {
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.247) 85%,
+    rgba(252, 182, 32, 0.397) 10%
+  );
+}
+.NavContainer a::first-letter {
+  font-size: 1.2em;
+}
+
+.NavContainer a:hover {
+  color: rgb(141, 72, 22);
+  border-radius: 4px;
+  border-bottom: 2.9px inset rgba(221, 93, 7, 0.822);
+  transform: scale(1.03);
+  transition: 0.1s;
+}
+.NavContainer a:focus {
+  border-right: 2px solid chocolate;
+}
+.logo {
+  display: inline-block;
+  position: relative;
+  left: 36.3em;
+  top: 1em;
+  z-index: 1;
+  border-radius: 100%;
+}
+.logo img {
+  border-radius: 60%;
+  height: 8em;
+  width: 190px;
+  box-shadow: 0px 4px 40px 0px rgba(255, 176, 4, 0.795);
+}
+.Container {
+}
+.NavBar-father > p {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(153, 106, 4, 0.164);
+  width: 97%;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px 50px 0px 0px;
+  height: 1em;
+}
