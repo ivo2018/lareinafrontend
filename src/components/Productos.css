@@ -2,7 +2,15 @@
   font-size: 1em;
   text-align: center;
 }
-
+.Productos-Container b {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: rgba(33, 58, 40, 0.603);
+  border-bottom: 1px ridge rgba(0, 0, 0, 0.473);
+  padding: 0 450px 10px;
+  border-radius: 4;
+}
 .Productos-Container-Select__ul {
   display: flex;
   padding: 40px 0px 40px 0px;
@@ -17,6 +25,9 @@
   background-color: rgba(0, 0, 0, 0.055);
   border: 1px outset rgb(49, 38, 23);
   border-radius: 4px;
+}
+.Productos-Container-Select__ul button:hover {
+  color: rgb(52, 55, 58);
 }
 .Productos-Container-Select__ul button:active {
   margin: auto;
