@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import Home from "./Home";
+
 import img from "../imgs/Icono.png";
 function NavBar() {
   return (
