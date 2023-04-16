@@ -39,7 +39,7 @@ const Productos = () => {
                 <p>{productos.title}</p>
                 <img src={productos.img} alt="" />
 
-                <p>{productos.price}$</p>
+                <p style={{ color: "black" }}>{productos.price}$</p>
               </div>
             );
           })}

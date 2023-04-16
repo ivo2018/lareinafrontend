@@ -6,8 +6,17 @@
   top: 20px;
   border-radius: 50px 50px 0px 0px;
   width: 70%;
-  background-color: rgba(128, 91, 10, 0.068);
+  background-color: rgba(253, 252, 252, 0.062);
   margin: auto;
-  height: 120vh;
+  min-height: 100vh;
   box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 740px) {
+  .Container {
+    top: 20px;
+    background-color: rgba(253, 252, 252, 0.062);
+    margin: auto;
+
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 1);
+  }
 }

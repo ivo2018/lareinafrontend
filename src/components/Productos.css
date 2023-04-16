@@ -49,13 +49,23 @@
   margin: auto;
   text-align: center;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.411);
-  background: linear-gradient(to bottom, transparent, rgba(46, 39, 10, 0.904));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(167, 136, 13, 0.582)
+  );
   width: 20%;
   height: 15em;
   border-radius: 4px;
   padding: 0 20px 20px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.Productos-Container__list-cards p:first-child {
+  color: black;
+  font-family: "Enchanted Land", sans-serif;
+
+  font-size: 1.5em;
 }
 .Productos-Container__list-cards:hover {
   transform: scale(1.1);
