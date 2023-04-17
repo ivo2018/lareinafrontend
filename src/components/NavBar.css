@@ -87,19 +87,24 @@
   width: 190px;
   box-shadow: 0px 4px 40px 0px rgba(255, 176, 4, 0.795);
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
   .logo img {
     position: relative;
-    right: 350px;
+    right: 280px;
+    top: 0px;
   }
   .NavContainer a {
     font-size: 0.8em;
-    justify-content: space-around;
+    padding: 0 10px;
   }
   .NavContainer {
     left: 0;
 
     top: 20px;
+  }
+
+  .NavContainer span {
+    width: 0em;
   }
 }
 x .NavBar-father > p {

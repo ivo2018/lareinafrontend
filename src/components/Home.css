@@ -24,7 +24,7 @@
   width: 75%;
   float: right;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 360px) {
   .Home-Carousel__principal img {
     width: 90%;
     position: relative;
@@ -32,12 +32,13 @@
   }
   .Home-Carousel__cards {
     font-size: 1em;
+    text-align: center;
   }
   .Home-Carousel__cards div {
     position: relative;
-    right: 40px;
-    font-size: 0.8em;
-    text-align: right;
+    right: 20px;
+    font-size: 1.2em;
+    text-align: center;
     display: block;
     width: 100%;
   }
