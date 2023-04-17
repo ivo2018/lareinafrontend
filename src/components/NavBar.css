@@ -87,7 +87,7 @@
   width: 190px;
   box-shadow: 0px 4px 40px 0px rgba(255, 176, 4, 0.795);
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 912px) {
   .logo img {
     position: relative;
     right: 440px;
