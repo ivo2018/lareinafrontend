@@ -90,21 +90,28 @@
 @media screen and (max-width: 360px) {
   .logo img {
     position: relative;
-    right: 280px;
-    top: 0px;
+    right: 440px;
+    top: 50px;
   }
   .NavContainer a {
     font-size: 0.8em;
-    padding: 0 10px;
+    padding: 4px;
+    display: block;
+    position: relative;
+    left: -10px;
+    z-index: 100;
   }
   .NavContainer {
     left: 0;
-
     top: 20px;
+    display: block;
   }
 
   .NavContainer span {
     width: 0em;
+  }
+  .NavContainer a:first-child {
+    bottom: 140px;
   }
 }
 x .NavBar-father > p {
