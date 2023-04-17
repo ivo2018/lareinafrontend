@@ -83,3 +83,35 @@
   color: aliceblue;
   background-color: rgba(148, 142, 63, 0.377);
 }
+@media screen and (max-width: 912px) {
+  .Productos-Container b {
+    font-size: 1.6em;
+    border-bottom: 1px ridge rgba(0, 0, 0, 0.473);
+    padding: 0px 100px 10px;
+    border-radius: 4;
+    position: relative;
+  }
+
+  .Productos-Container {
+    position: relative;
+    top: 20px;
+  }
+  .Productos-Container-Select__ul {
+    display: inline-block;
+    padding: 40px 0px 40px 0px;
+    position: relative;
+    right: 120px;
+  }
+  .Productos-Container-Select__ul button {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    right: 120px;
+    width: 8em;
+  }
+  .Productos-Container__list-cards {
+    width: 16em;
+    position: relative;
+    left: 15px;
+  }
+}
