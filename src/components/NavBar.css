@@ -90,20 +90,20 @@
 @media screen and (max-width: 912px) {
   .logo img {
     position: relative;
-    right: 440px;
-    top: 50px;
+    right: 232%;
+    top: 2.8em;
   }
   .NavContainer a {
     font-size: 0.8em;
     padding: 4px;
     display: block;
     position: relative;
-    left: -10px;
+    left: -0.7em;
     z-index: 100;
   }
   .NavContainer {
     left: 0;
-    top: 20px;
+    top: 1em;
     display: block;
   }
 
@@ -111,7 +111,7 @@
     width: 0em;
   }
   .NavContainer a:first-child {
-    bottom: 140px;
+    bottom: 5.7em;
   }
 }
 x .NavBar-father > p {
