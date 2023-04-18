@@ -6,7 +6,7 @@
   margin: auto;
   position: relative;
   top: -40px;
-  right: 35px;
+
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2em;
   background: linear-gradient(
@@ -75,7 +75,7 @@
 .logo {
   display: inline-block;
   position: relative;
-  left: 32.3em;
+  left: 34.9em;
   top: 1em;
   z-index: 1;
   border-radius: 100%;
@@ -90,7 +90,7 @@
 @media screen and (max-width: 912px) {
   .logo img {
     position: relative;
-    right: 232%;
+    right: 255%;
     top: 2.8em;
   }
   .NavContainer a {
@@ -112,6 +112,13 @@
   }
   .NavContainer a:first-child {
     bottom: 5.7em;
+  }
+  .NavContainer a:first-child:hover {
+    top: -5.49em;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.13));
+    border-radius: 80px;
+    color: rgb(190, 142, 9);
+    border: none;
   }
 }
 x .NavBar-father > p {
