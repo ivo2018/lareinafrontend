@@ -12,14 +12,27 @@ function NavBar() {
 
       <ul class="NavContainer">
         <a href="/">La Reina</a>
-        <a href="/products"> Productos</a>
-        <a href="/home">Servicios</a>
-        <a href="/home">Franquicias</a>
+        <a href="/products" class="link">
+          {" "}
+          Productos
+        </a>
+        <a href="/home" class="link">
+          Servicios
+        </a>
+        <a href="/home" class="link">
+          Franquicias
+        </a>
 
         <span></span>
-        <a href="/home">Promociones</a>
-        <a href="/home">Noticias</a>
-        <a href="/home">Sucursales y contacto</a>
+        <a href="/home" class="link">
+          Promociones
+        </a>
+        <a href="/home" class="link">
+          Noticias
+        </a>
+        <a href="/home" class="link">
+          Sucursales y contacto
+        </a>
       </ul>
     </div>
   );
