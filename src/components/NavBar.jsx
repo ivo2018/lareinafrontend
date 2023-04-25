@@ -11,7 +11,9 @@ function NavBar() {
       </span>
 
       <ul class="NavContainer">
-        <a href="/">La Reina</a>
+        <a href="/" class="linke">
+          La Reina
+        </a>
         <a href="/products" class="link">
           {" "}
           Productos
