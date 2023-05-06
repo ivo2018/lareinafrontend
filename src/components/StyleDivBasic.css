@@ -1,0 +1,21 @@
+.divBasic {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50em;
+  height: 50em;
+  background-color: rgba(165, 136, 74, 0.678);
+  background: linear-gradient(
+    to top,
+    transparent 2%,
+    rgba(165, 136, 74, 0.582)
+  );
+  border-radius: 6px;
+}
+
+.divBasic i {
+  font-family: "Shade Sans", sans-serif;
+  padding: 60px;
+  font-size: 2em;
+  color: rgb(46, 42, 21);
+}

@@ -3,6 +3,7 @@ import "./Home.css";
 import Principal from "../imgs/ReinaPrincipal.jpg";
 import Principal1 from "../imgs/ReinaPrincipal1.jpg";
 import Principal2 from "../imgs/ReinaPrincipal2.jpg";
+import Footer from "../components/Footer.jsx";
 function Home() {
   return (
     <div class="Home-Carousel">

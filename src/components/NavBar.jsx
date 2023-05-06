@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import Corona from "../imgs/Corona2.png";
 
 import img from "../imgs/Icono.png";
 function NavBar() {
@@ -14,25 +15,32 @@ function NavBar() {
         <a href="/" class="linke">
           La Reina
         </a>
+
         <a href="/products" class="link">
-          {" "}
+          <img src={Corona} alt="" />
           Productos
         </a>
-        <a href="/home" class="link">
+
+        <a href="/servicios" class="link">
+          <img src={Corona} alt="" />
           Servicios
         </a>
-        <a href="/home" class="link">
+        <a href="/franquicias" class="link">
+          <img src={Corona} alt="" />
           Franquicias
         </a>
 
         <span></span>
-        <a href="/home" class="link">
+        <a href="/promociones" class="link">
+          <img src={Corona} alt="" />
           Promociones
         </a>
-        <a href="/home" class="link">
+        <a href="/noticias" class="link">
+          <img src={Corona} alt="" />
           Noticias
         </a>
-        <a href="/home" class="link">
+        <a href="/sucursalesycontactos" class="link">
+          <img src={Corona} alt="" />
           Sucursales y contacto
         </a>
       </ul>
