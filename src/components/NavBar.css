@@ -175,7 +175,7 @@
 @media screen and (max-width: 912px) {
   .logo img {
     position: relative;
-    right: 255%;
+    right: 220%;
     top: 2.8em;
   }
   .NavContainer a {
